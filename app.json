@@ -9,15 +9,15 @@
     ],
     "repository": "https://github.com/coderkkSK/SaveRestrictedContentBot2",
     "website": "",
-    "success_url": "https://t.me/DroneBots",
+    "success_url": "https://t.me/",
     "env": {
         "API_HASH": {
             "description": "Your API HASH from my.telegram.org",
-            "value": "8e6598bb138e8e7890b0fa19d6a152f6"
+            "value": ""
         },
         "API_ID": {
             "description": "Your API ID from my.telegram.org",
-            "value": "1604400"
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "Bot token, get it from @BotFather.",
@@ -25,15 +25,15 @@
         },
         "SESSION": {
             "description": "Pyrogram string session.",
-            "value": "BQAYezAANNNdWS1gLjUcMq69bYtwIEGpDq8UMXy8LTp-EJcli7XpQU8enny4R2Ipch8rDWnvTIoc6zUbG4N_mpYqiBQkIOfLDrdq9Kvb-FxOjSYLX8yrjnMhz5tuA-GitlweJTo_MT1dsvgNrkJURUik3FDEnoC35nuzd_2jiwuvb5pZHq78P6ugwS0DU5qp9vllRCkIeTirmdi8o3MGRzdn5jQpPLUB9urxe-4HZ97V5lYt61PMne6PtwfJ80qqxzPRTipeDsroL65KHtmnsshC7xV_dDukw5pb0yrHLoODI2zZb1f8JtAUyH8XoxLgp97N-vfu-X0TMaoDvEcGQsaiJrwOGAAAAAGGJj8xAA"
+            "value": ""
         },
         "AUTH": {
             "description": "User ID of Bot owner.",
-            "value": "6545620785"
+            "value": ""
         },
         "FORCESUB": {
             "description": "Username name of public channel without using '@'.",
-            "value": "jogumotaru"
+            "value": ""
         }
     },
     "buildpacks": [
