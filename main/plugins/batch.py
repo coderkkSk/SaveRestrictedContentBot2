@@ -42,7 +42,7 @@ async def _batch(event):
         await event.reply(r)
         return       
     if event.sender_id in batch:
-        return await event.reply("You've already started one batch, wait for it to complete!!!")
+        return await event.reply("You've already started one batch, wait for it to complete!")
     async with Drone.conversation(event.chat_id) as conv: 
         if s != True:
             await conv.send_message("Send me the message link you want to start saving from, as a reply to this message.", buttons=Button.force_reply())
@@ -81,16 +81,16 @@ async def run_batch(userbot, client, sender, link, _range):
     for i in range(_range):
         timer = 60
         if i < 25:
-            timer = 1
+            timer = 5
         if i < 50 and i > 25:
-            timer = 2
+            timer = 10
         if i < 100 and i > 50:
-            timer = 3
+            timer = 15
         if not 't.me/c/' in link:
             if i < 25:
-                timer = 1
-            else:
                 timer = 2
+            else:
+                timer = 3
         try: 
             if not sender in batch:
                 await client.send_message(sender, "Batch completed.")
