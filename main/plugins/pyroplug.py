@@ -38,7 +38,7 @@ async def get_msg(userbot, client, bot, sender, edit_id, msg_link, i):
             chat = str(msg_link.split("/")[-2])
         else:
             chat = str(msg_link.split("/")[-2])
-            if len(chat) > 3:
+            if len(chat) > 3 and len(chat) < 11:
                 chat = int('-100' + str(msg_link.split("/")[-2]))
             elif len(chat) == 11 or len(chat) > 11:
                 #chat =  int('-100' + str(client.get_chats(msg_link.split("/")[-2])))
